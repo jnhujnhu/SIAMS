@@ -1,0 +1,10 @@
+.schedule-table-entry{
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: rgb(93, 197, 208);
+    opacity: 0.8;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center !important;
+}

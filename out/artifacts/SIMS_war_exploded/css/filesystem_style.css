@@ -1,0 +1,46 @@
+.file-item-text a {
+    text-decoration: none;
+    color: black;
+}
+.file-item-text a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+.common-icon{
+    width: 64px;
+    height: 32px;
+    text-align: center;
+    float:right;
+    margin-top: 10px;
+}
+.upload-icon{
+    width: 64px;
+    height: 32px;
+    text-align: center;
+    float:right;
+    margin-right: 5%;
+    margin-top: 17px;
+}
+.search-icon{
+    float: right;
+    margin-right: 10px;
+}
+.return-parent-directory{
+    font-size: 12px;
+    color: gray;
+}
+.directory-path{
+    font-size: 12px;
+    color: gray;
+}
+.directory{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 5%;
+}
+.file-input{
+    margin-top: -24px;
+    width: 64px;
+    height: 32px;
+    opacity: 0;
+}

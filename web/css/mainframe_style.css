@@ -1,0 +1,35 @@
+.demo-card-wide.mdl-card {
+    width: 100%;
+}
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 500px;
+    background: url('../assets/welcome_card_bg.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+.demo-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+.demo-avatar-dropdown {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+}
+.user-information{
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+

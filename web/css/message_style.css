@@ -1,0 +1,41 @@
+.user-portrait{
+    width: 44px;
+    height: 44px;
+    background-image: url('../assets/user.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.message-detail{
+    box-sizing: border-box;
+    padding: 16px;
+    display: flex;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    min-height: 64px;
+    align-items: center;
+}
+.message-title{
+    background-color: #FF9292;
+    transform-origin: 165px 56px;
+    box-sizing: border-box;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: 16px;
+}
+.message-operation-container{
+    margin-left: 20px;
+}
+.add-message-btn{
+    right: 10px;
+    margin: 10px;
+    background-color: #FF9292 !important;
+    position: absolute;
+}
+.msg-input_label::after{
+    background-color: #FF9292;
+}
+.msg-input-title_label::after{
+    background-color: #FF4081;
+}

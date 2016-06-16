@@ -1,0 +1,45 @@
+.welcome-header{
+    background-color: white;
+}
+.welcome-header-logo{
+    margin-left: 150px;
+    margin-right: 4px;
+}
+.welcome-header-login-button{
+    text-transform: none;
+    background: royalblue !important;
+}
+.welcome-main-content-login-button{
+    text-transform: none;
+    background: royalblue !important;
+    margin-top: 40px;
+    height: 53px;
+    width: 160px;
+    font-size: 17px;
+}
+.welcome-main-background{
+    background-image: url('/assets/test1.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    min-height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.welcome-main-content{
+    display: none;
+    position: absolute;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'HanHei SC', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+    font-weight: 300;
+    color: white;
+    line-height: normal;
+    top: 211px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

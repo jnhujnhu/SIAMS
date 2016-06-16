@@ -1,0 +1,71 @@
+.container {
+    position: absolute;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.reg-container {
+    position: absolute;
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
+
+.login-info{
+    width: 200px;
+    display: inline-block;
+}
+
+.login-form{
+    text-align: center;
+}
+.warning{
+    color: brown;
+    display: none;
+}
+
+.login-label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.login-row {
+    text-align: end;
+    margin-bottom: 10px;
+}
+
+.login-checkbox{
+    margin-right: 50px;
+    color: #999;
+}
+
+.login-btn-submit{
+    width: 100px;
+}
+
+.reg-btn-submit{
+    width: 100px;
+}
+.login-box {
+    width: 350px;
+    background-color: white;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 15px 30px 15px;
+    margin: auto;
+}
+.reg-box {
+    width: 400px;
+    background-color: white;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 15px 30px 15px;
+    margin: auto;
+}
+.box-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #999;
+}
